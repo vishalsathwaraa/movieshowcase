@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav Icon -->
+    <link rel="icon" href="fav.png">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Js -->
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+
+    <!-- FontAwesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" /> -->
+
+    <title>Movies</title>
+</head>
+
+<body>
+
+    <nav>
+        <!-- Logo -->
+        <div class="toggle"></div>
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+           <li class="dp"><a href="#tvseries"  class="arrow">Tv&nbsp;Shows</a>
+                <div class="list">
+                    <ul>
+                        <li><a href="#netflix">Netflix</a></li>
+                        <li><a href="#IndianWebShow">Indian&nbsp;Web&nbsp;Show</a></li>
+                    </ul>
+                </div>
+            </li>
+            <!-- <li class="dp"><a href="#tvseries">Tv&nbsp;Shows</a><i class="fas fa-chevron-down"></i>
+                <div class="list">
+                    <ul>
+                        <li><a href="#netflix">Netflix</a></li>
+                        <li><a href="#IndianWebShow">Indian&nbsp;Web&nbsp;Show</a></li>
+                    </ul>
+                </div>
+            </li> -->
+            <li><a  href='#'>Anime</a></li>
+            <li><a  href='#'>Games</a></li>
+        </ul>
+        <!-- Search bar -->
+
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourite Movies" />
+            <!-- Search icon -->
+            <i class="fas fa-search"></i>
+        </div>
+
+    </nav>
+    
+    <section id="main" class="animate__animated animate__fadeInDown animate__delay-1s animate__slower ">
+        <!-- Showcase Heading -->
+        <h1 class="showcase-heading">Trending</h1>
+
+        <ul id="autoWidth" class="cs-hidden">
+            <!-- Showcase-box1 -->
+            <li class="item-a">
+                <div class="showcase-box">
+                    <img src="img/1.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-b">
+                <div class="showcase-box">
+                    <img src="img/2.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-c">
+                <div class="showcase-box">
+                    <img src="img/3.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-d">
+                <div class="showcase-box">
+                    <img src="img/4.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-e">
+                <div class="showcase-box">
+                    <img src="img/5.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-f">
+                <div class="showcase-box">
+                    <img src="img/6.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="showcase-box">
+                    <img src="img/7.jpg" alt="">
+                </div>
+            </li>
+            <li class="item-h">
+                <div class="showcase-box">
+                    <img src="img/8.jpg" alt="" />
+                </div>
+            </li>
+            <li class="item-i">
+                <div class="showcase-box">
+                    <img src="img/9.jpg" alt="" />
+                </div>
+            </li>
+        </ul>
+
+    </section>
+    <span id="movies"></span> 
+
+    <!--latest-movies---------------------->
+   
+    <section id="latest" class="animate__animated animate__fadeInLeft animate__slower animate__delay-2s">
+        <h1 class="latest-heading">Latest Movies</h1>
+        <!--slider------------------->
+        <ul id="autoWidth2" class="cs-hidden">
+            <!--slide-box-1------------------>
+            <li class="item-a">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/1.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>OUTSIDE THE WIRE</strong>
+                        <p> Action, Science-Fiction</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-2------------------>
+            <li class="item-b">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/2.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>SKYLIN3S</strong>
+                        <p>Action, Science-Fiction</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-3------------------>
+            <li class="item-c">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/3.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>RAYA</strong>
+                        <p>Adventure, Comedy</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-4------------------>
+            <li class="item-d">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/4.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>NOBODY</strong>
+                        <p>Action, Thriller</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-5------------------>
+            <li class="item-e">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/5.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>VOLITION </strong>
+                        <p>Science-Fiction, Thriller</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-6------------------>
+            <li class="item-f">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/6.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong> TENET </strong>
+                        <p>Action, Drama, Thriller</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-7------------------>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/7.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong> FAST & FURIOUS 9</strong>
+                        <p> Action</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/8.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Mulan </strong>
+                        <p>Action, Adventure </p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/LatestMovies/9.jpeg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>BLACK WIDOW </strong>
+                        <p>Action, Adventure, Fantasy</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <span id="netflix"></span> 
+    <!--Tv Series---------------------->
+    <section id="tvseries" class="animate__animated animate__fadeInLeft animate__slower animate__delay-2s">
+      <h1 class="tv-heading">Netflix Web Series</h1>
+        <!--slider------------------->
+        <ul id="autoWidth3" class="cs-hidden">
+            <!--slide-box-1------------------>
+            <li class="item-a">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/1.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>Narcos 2015 ‧ 3 seasons</strong>
+                        <p> Crime </p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-2------------------>
+            <li class="item-b">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/2.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>Game of Thrones 2011 ‧ 8 seasons</strong>
+                        <p> Drama </p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-3------------------>
+            <li class="item-c">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/3.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>The Flash 2014 ‧ 4 seasons</strong>
+                        <p> Action fiction </p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-4------------------>
+            <li class="item-d">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/4.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>Arrow
+                            2012 ‧ 8 seasons</strong>
+                        <p>Action fiction</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-5------------------>
+            <li class="item-e">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/5.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>Daredevil 2015 ‧ 3 seasons</strong>
+                        <p> Action fiction </p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-6------------------>
+            <li class="item-f">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/6.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>Breaking Bad 2008 ‧ 5 seasons</strong>
+                        <p> Crime </p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-7------------------>
+            <li class="item-g">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/7.png">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>Money Heist
+                            2017 ‧ 4 seasons</strong>
+                        <p> Crime </p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/8.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>Dark 2017 ‧ 3 seasons</strong>
+                        <p>Mystery</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="tv-box">
+                    <!--img-------->
+                    <div class="tv-b-img">
+                        <img src="img/TvShow/9.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="tv-b-text">
+                        <strong>The Walking Dead 2010 ‧ 10 seasons</strong>
+                        <p> Horror </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- Indian Web Show -->
+
+    <section id="IndianWebShow" class="animate__animated animate__fadeInLeft animate__slower animate__delay-2s">
+        <h1 class="latest-heading">Indian Web Series</h1>
+        <!--slider------------------->
+        <ul id="autoWidth2" class="cs-hidden">
+            <!--slide-box-1------------------>
+            <li class="item-a">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/1.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Ghoul</strong>
+                        <p> Horror fiction </p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-2------------------>
+            <li class="item-b">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/2.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Sacred Games</strong>
+                        <p>Drama</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-3------------------>
+            <li class="item-c">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/3.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Mirzapur</strong>
+                        <p>Crime</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-4------------------>
+            <li class="item-d">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/4.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Paatal Lok</strong>
+                        <p>Crimer</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-5------------------>
+            <li class="item-e">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/5.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Panchayat </strong>
+                        <p>Comedy-drama</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-6------------------>
+            <li class="item-f">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/6.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong> Kota Factory </strong>
+                        <p>Comedy</p>
+                    </div>
+                </div>
+            </li>
+            <!--slide-box-7------------------>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/7.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong> Delhi Crime</strong>
+                        <p>Drama</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/8.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Criminal Justice </strong>
+                        <p>Thriller </p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-g">
+                <div class="latest-box">
+                    <!--img-------->
+                    <div class="latest-b-img">
+                        <img src="img/TvShow_India/9.jpg">
+                    </div>
+                    <!--text---------->
+                    <div class="latest-b-text">
+                        <strong>Scam 1992</strong>
+                        <p>Drama</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    
+<footer class="footer">
+    <span>2021 &copy; Vishal Sathwara</span>
+    <ul>
+        <li><a href="https://instagram.com/vishalsathwaraa" target="_blank"><img src="img/icon/instagram.png" alt=""></a></li>
+        <li><a href="https://www.facebook.com/vishal.sathwara.56" target="_blank"><img src="img/icon/facebook.png" alt=""></a></li>
+        <li><a href="https://github.com/vishalsathwaraa" target="_blank"><img src="img/icon/github.png" alt=""></a></li>
+        <li><a href="https://www.youtube.com/channel/UC1Bzw_84AwYJLUXpNkUpb9g" target="_blank"><img src="img/icon/youtube.png" alt=""></a></li>
+    </ul>
+</footer>
+
+    <!-- Slider Script -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="js/gsap.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#autoWidth,#autoWidth2,#autoWidth3').lightSlider({
+                autoWidth: true,
+                auto: true,
+                loop: true,
+                enableDrag: true,
+                enableTouch: true,
+                pauseOnHover: true,
+                speed: 1000,
+                pause: 5000,
+                controls: true,
+                pager: false,
+                onSliderLoad: function () {
+                    $('#autoWidth,,#autoWidth2,#autoWidth3').removeClass('cS-hidden');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
